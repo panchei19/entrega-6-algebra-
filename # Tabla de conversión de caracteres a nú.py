@@ -1,6 +1,4 @@
-# Cryptosystem 1 Implementation
 
-# Conversion table
 tabla_conversion = {
     'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4, 'F': 5, 'G': 6, 'H': 7, 
     'I': 8, 'J': 9, 'K': 10, 'L': 11, 'M': 12, 'N': 13, 'Ñ': 14,
@@ -9,10 +7,8 @@ tabla_conversion = {
     '*': 27, ' ': 28
 }
 
-# Inverse conversion table
 tabla_inversa = {v: k for k, v in tabla_conversion.items()}
 
-# Modulo for the cryptosystem
 modulo = 29
 
 def encriptar_criptosistema_1(texto, a, b):
