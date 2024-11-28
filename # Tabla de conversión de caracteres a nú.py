@@ -49,7 +49,7 @@ def main():
     a = 3  
     b = 1  
     
-    texto_original = "EN EL MAPA DUST EL EQUIPO ANTITERRORISTA PLANEA DESACTIVAR LA BOMBA COLOCADA EN EL SITIO A POR LOS TERRORISTAS"
+    texto_original = "EN EL MAPA MIRAGE EL EQUIPO ANTITERRORISTA PLANEA DESACTIVAR LA BOMBA COLOCADA EN EL SITIO A POR LOS TERRORISTAS"
 
     texto_encriptado = encriptar_criptosistema_1(texto_original, a, b)
     print("Texto Original:", texto_original)
